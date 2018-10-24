@@ -27,6 +27,7 @@ html {
 
 h1 {
     font-size: 3.2rem;
+    font-family: "Kaushan Script";
 }
 
 h2 {
@@ -127,10 +128,66 @@ body {
 }
 
 .content {
-    background: url(../img/social-sprite.png);
-    transform: rotate(-2deg);
-    background-size: cover;
-    height: 100%;
+    overflow: hidden;
+}
+
+.sprite-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sprite-img {
+    border-radius: 5px;
+    background-size: 1100%;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/social-sprite.png);
+    margin: 9px;
+    transform: rotate(-15deg);
+}
+
+.sprite-img1 {
+    background-position: 0px -100px;   
+}
+
+.sprite-img2 {
+    background-position: -25px -100px;   
+}
+
+.sprite-img3 {
+    background-position: -50px -100px;   
+}
+
+.sprite-img4 {
+    background-position: -75px -100px;   
+}
+
+.sprite-img5 {
+    background-position: -100px -100px;   
+}
+
+.sprite-img6{
+    background-position: -125px -100px;   
+}
+
+.sprite-img7 {
+    background-position: -150px -100px;   
+}
+
+.sprite-img8 {
+    background-position: -175px -100px;   
+}
+
+.sprite-img9 {
+    background-position: -200px -100px;   
+}
+
+.sprite-img10 {
+    background-position: -225px -100px;   
+}
+
+.sprite-img11 {
+    background-position: -250px -100px;   
 }
 
 /*----------------------------logo------------------------------ */
@@ -155,7 +212,7 @@ body {
 
 .logo h1 {
     margin: 20px 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-style: italic;
 }
 
