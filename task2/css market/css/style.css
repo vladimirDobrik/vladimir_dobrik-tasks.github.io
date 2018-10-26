@@ -129,6 +129,8 @@ body {
 
 .content {
     overflow: hidden;
+    transform: rotate(-5deg);
+
 }
 
 .sprite-row {
@@ -143,7 +145,7 @@ body {
     height: 25px;
     background-image: url(../img/social-sprite.png);
     margin: 9px;
-    transform: rotate(-15deg);
+    /* transform: rotate(-10deg); */
 }
 
 .sprite-img1 {
