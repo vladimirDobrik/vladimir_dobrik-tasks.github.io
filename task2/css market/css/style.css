@@ -60,7 +60,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     flex-flow: column wrap;
-    height: 100%;
 }
 
 .wrapper > header {
@@ -83,6 +82,7 @@ body {
     background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    padding: 0 10px;
 }
 
 .wrapper > header a {
@@ -125,12 +125,34 @@ body {
     height: 300px;   
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.sprite-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95px;
+    height: 290px; 
+    transform: rotate(-5deg);
+    margin-right: 10px;
+    position: relative;
+    top: -33px;
+}
+
+.sprite-col:last-child {
+    top: -30px;
+    left: 5px;
 }
 
 .content {
     overflow: hidden;
     transform: rotate(-5deg);
-
+    height: 400px;
+    position: relative;
+    top: -60px
 }
 
 .sprite-row {
@@ -145,7 +167,6 @@ body {
     height: 25px;
     background-image: url(../img/social-sprite.png);
     margin: 9px;
-    /* transform: rotate(-10deg); */
 }
 
 .sprite-img1 {
@@ -254,37 +275,37 @@ form p {
 }
 
 #first-btn {
-    background-color: deeppink;
+    background-color: rgb(232,80,169);
     line-height: 1;
     font-size: 2rem;
 }
 
 #second-btn {
-    background-color: #96d00f;
+    background-color: rgb(158,196,37);
     line-height: .5;
     font-size: 1.3rem;
 }
 
 #third-btn {
-    background-color: dodgerblue;
+    background-color: rgb(76,149,231);
     line-height: .4;
     font-size: 1.3rem;
 }
 
 #fourth-btn {
-    background-color: red;
+    background-color: rgb(232,69,69);
     line-height: 1;
     font-size: 1.3rem;
 }
 
 #fifth-btn {
-    background-color: orangered;
+    background-color: rgb(255,110,29);
     line-height: .1;
     font-size: 1.3rem;
 }
 
 #sixth-btn {
-    background-color: yellow;
+    background-color: rgb(255,189,47);
     line-height: .4;
     font-size: 1.3rem;
 }
